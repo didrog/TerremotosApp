@@ -13,11 +13,11 @@
     <string name="btnBuscar">Buscar</string>
     <string name="title_activity_resultados">ResultadosActivity</string>
     <string-array name="magnitudArray">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
+        <item>Magnitud 1</item>
+        <item>Magnitud 2</item>
+        <item>Magnitud 3</item>
+        <item>Magnitud 4</item>
+        <item>Magnitud 5</item>
     </string-array>
 
 </resources>
