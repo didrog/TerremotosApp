@@ -24,6 +24,10 @@
             android:name=".HelpActivity"
             android:label="@string/title_activity_help" >
         </activity>
+        <activity
+            android:name=".ResultadosActivity"
+            android:label="@string/title_activity_resultados" >
+        </activity>
     </application>
 
 </manifest>
