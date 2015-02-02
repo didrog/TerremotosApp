@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditTextPreference
+            android:key="@string/key_web"
+            android:title="WEB"
+            android:summary="WEB de la cual se actualizará la app"
+            android:dialogTitle="Introduzca la web"/>
+        <ListPreference
+            android:key="@string/key_frecuencia_act"
+            android:title="Frecuencia de actualización"
+            android:summary="Selección de la frecuencia con la cual se actualizarán los terremotos"
+            android:dialogTitle="Selección de frecuencia"
+            android:entries="@array/frecuenciaKey"
+            android:entryValues="@array/frecuenciaKeyValues"
+            />
+</PreferenceScreen>

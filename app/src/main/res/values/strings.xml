@@ -12,6 +12,8 @@
     <string name="lblIntensidad">Intensidad:</string>
     <string name="btnBuscar">Buscar</string>
     <string name="title_activity_resultados">ResultadosActivity</string>
+    <string name="key_web">key_web</string>
+    <string name="key_frecuencia_act">key_frecuencia_act</string>
     <string-array name="magnitudArray">
         <item>Magnitud 1</item>
         <item>Magnitud 2</item>
@@ -19,5 +21,16 @@
         <item>Magnitud 4</item>
         <item>Magnitud 5</item>
     </string-array>
-
+    <string-array name="frecuenciaKey">
+        <item>Diaria</item>
+        <item>Semanal</item>
+        <item>Mensual</item>
+        <item>No actualizar</item>
+    </string-array>
+    <string-array name="frecuenciaKeyValues">
+        <item>1</item>
+        <item>7</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
 </resources>
