@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.compostela.curso.terremotosapp.BusquedaFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/lblIntensidad"
+        android:id="@+id/lblIntensidad"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <!--android:layout_centerHorizontal="true"-->
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/slcIntensidad"
+        android:layout_marginTop="53dp"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:focusableInTouchMode="true"
+        android:focusable="false"
+        android:entries="@array/magnitudArray"/>
+    <!-- <Spinner
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/slcIntensidad"
+         android:layout_marginTop="27dp"
+         android:layout_below="@+id/lblIntensidad"
+         android:layout_centerHorizontal="true"
+         android:focusableInTouchMode="true"
+         android:focusable="false"
+         android:entries="@array/magnitudArray"/>
+ -->
+
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_below="@+id/slcIntensidad"
+        android:layout_centerHorizontal="true"
+        android:calendarViewShown="false"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBuscar"
+        android:id="@+id/btnBuscar"
+        android:layout_marginTop="162dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

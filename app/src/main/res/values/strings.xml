@@ -14,6 +14,7 @@
     <string name="title_activity_resultados">ResultadosActivity</string>
     <string name="key_web">key_web</string>
     <string name="key_frecuencia_act">key_frecuencia_act</string>
+
     <string-array name="magnitudArray">
         <item>Magnitud 1</item>
         <item>Magnitud 2</item>
@@ -33,4 +34,7 @@
         <item>30</item>
         <item>0</item>
     </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
